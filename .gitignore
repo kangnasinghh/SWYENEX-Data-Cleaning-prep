@@ -1,0 +1,42 @@
+#python cache files
+__pycache__/
+*py[cod]
+*$py.class
+
+#virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+#jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+#ide/editor files
+.vscode/
+.idea/
+
+#operating sys files
+.DS_Store
+Thumbs.db
+
+#temp files
+*.tmp
+*.temp
+*.log
+
+#python distri/build files
+build/
+dist/
+*.egg-info/
+
+#environment variables/ secrets
+.env
+.env.*
+
+#excel temp/lock files
+~$*.xlsx
+~$*.xls
+
+#local project files
+*.bak
