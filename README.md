@@ -90,3 +90,24 @@ The cleaned working sample has:
 - numeric columns stored as integers,
 - standardized text values,
 - and a separate raw file so the cleaning process is transparent.
+
+
+## Task 2 – Exploratory Data Analysis
+
+Task 2 uses the cleaned dataset from Task 1 for exploratory analysis.
+
+### Analysis performed
+- Descriptive statistics for age, education number, capital gain/loss, and weekly hours
+- Income-group distribution
+- Weekly hours compared with income
+- Income share by sex
+- Income share by education
+- Age versus weekly hours
+- Identification of high-value/skewed observations
+
+### Deliverables
+- `data/task2_exploratory_analysis.xlsx` – Excel workbook with cleaned data, summaries, and statistics
+- `src/exploratory_analysis.py` – Python analysis script
+- `docs/task2_eda_report.md` – five insights, statistics, patterns, and anomalies
+- `charts/` – five analysis charts
+- `data/eda_*.csv` – supporting summary tables
